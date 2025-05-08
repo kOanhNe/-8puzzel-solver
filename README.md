@@ -70,3 +70,10 @@ Hiển Thị Belief State (Chỉ Với Partially Observable):
 Với thuật toán Partially Observable, giao diện hiển thị tối đa ba trạng thái có thể có của bài toán (belief state).
 
 Điều này thể hiện sự không chắc chắn của thuật toán về trạng thái hiện tại.
+
+#Tài Liệu Tham Khảo
+Code tham khảo ý tưởng từ các nguồn mở về AI, đặc biệt là cách triển khai heuristic cho 8-puzzle:
+
+Solving 8-Puzzle using A* Algorithm
+
+Q-Learning for Puzzle Games
