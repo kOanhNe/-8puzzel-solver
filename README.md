@@ -16,8 +16,10 @@
     Solution: Chuỗi các bước di chuyển để đưa từ trạng thái ban đầu về trạng thái mục tiêu.
   
   Các thuật toán áp dụng:
-  BFS (Breadth-First Search): Duyệt qua tất cả trạng thái theo từng lớp, đảm bảo tìm ra lời giải ngắn nhất nhưng tốn nhiều bộ nhớ.
+    BFS (Breadth-First Search): Duyệt qua tất cả trạng thái theo từng lớp, đảm bảo tìm ra lời giải ngắn nhất nhưng tốn nhiều bộ nhớ.
+  ![Image](https://github.com/user-attachments/assets/52a4e8ac-2b50-43a5-bde5-ff1b0c488b04)
     DFS (Tìm kiếm theo chiều sâu): Đi sâu vào một nhánh, có thể nhanh trong một số trường hợp nhưng không đảm bảo tối ưu.
+    ![Image](https://github.com/user-attachments/assets/03d56ea4-e8e3-4692-ad82-ba469245c534)
     UCS (Tìm kiếm đồng nhất): Ưu tiên đường đi có chi phí thấp nhất, phù hợp cho bài toán có trọng số.
   Nhận xét hiệu suất:
   BFS luôn tìm được lời giải tối ưu nhưng đòi hỏi nhiều tài nguyên do mở rộng nhiều trạng thái.
