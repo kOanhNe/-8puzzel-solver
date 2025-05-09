@@ -28,6 +28,7 @@
 ![Image](https://github.com/user-attachments/assets/425335f0-5e10-4c2b-ade8-db352a59e6e7)
 
   ID (Iterative Deepening)
+  ![Image](https://github.com/user-attachments/assets/118fb62b-b0c3-43af-910d-db4ddab8d314)
   
   Nhận xét hiệu suất:
   BFS luôn tìm được lời giải tối ưu nhưng đòi hỏi nhiều tài nguyên do mở rộng nhiều trạng thái.
@@ -49,7 +50,7 @@
   ![Image](https://github.com/user-attachments/assets/ce93f88c-94de-4f9b-8cbe-196935b3873a)
 
   AO*: Tối ưu cho bài toán AND-OR với cây tìm kiếm động.
-  ![Image](https://github.com/user-attachments/assets/c30648f7-fdbd-429f-b4dd-bbb353deff79)
+![Image](https://github.com/user-attachments/assets/263f3db5-c94e-4680-92c1-788b4d670f6c)
   
   Search with No Observation
   ![Image](https://github.com/user-attachments/assets/0e53eb14-54d6-4319-9082-a9fd41beb62b)
