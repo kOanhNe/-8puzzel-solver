@@ -21,6 +21,7 @@
     DFS (Tìm kiếm theo chiều sâu): Đi sâu vào một nhánh, có thể nhanh trong một số trường hợp nhưng không đảm bảo tối ưu.
     ![Image](https://github.com/user-attachments/assets/03d56ea4-e8e3-4692-ad82-ba469245c534)
     UCS (Tìm kiếm đồng nhất): Ưu tiên đường đi có chi phí thấp nhất, phù hợp cho bài toán có trọng số.
+    ![Image](https://github.com/user-attachments/assets/601c7d0d-ea53-4aba-abb9-8e6ba69704ac)
   Nhận xét hiệu suất:
   BFS luôn tìm được lời giải tối ưu nhưng đòi hỏi nhiều tài nguyên do mở rộng nhiều trạng thái.
   DFS nhanh hơn trong một số trường hợp nhưng dễ mắc kẹt trong nhánh vô hạn.
@@ -29,16 +30,19 @@
   #2.2. Các Thuật Toán Tìm Kiếm Có Thông Tin
   Thành phần chính:
   Hàm heuristic: Sử dụng khoảng cách Manhattan hoặc số ô sai vị trí để ước lượng chi phí.
-  Các thuật toán áp dụng:
-  A*: Kết hợp chi phí thực tế và heuristic, đảm bảo tối ưu và hiệu quả.
-  ![Image](https://github.com/user-attachments/assets/b11b69e8-088a-43b6-bebc-b030c42e4d26)
-  Greedy: Chọn hành động dựa trên heuristic, nhanh nhưng không đảm bảo tối ưu.
-  ![Image](https://github.com/user-attachments/assets/ca8d8b1c-67af-44ca-b529-d0455f6bc8bf)
-  IDA* (Iterative Deepening A): Cải tiến của A để tiết kiệm bộ nhớ bằng cách giới hạn độ sâu.
   
+  Các thuật toán áp dụng:
+  
+  A*: Kết hợp chi phí thực tế và heuristic, đảm bảo tối ưu và hiệu quả.
+  ![Image](https://github.com/user-attachments/assets/ca8d8b1c-67af-44ca-b529-d0455f6bc8bf)
+  
+  Greedy: Chọn hành động dựa trên heuristic, nhanh nhưng không đảm bảo tối ưu.
+  ![Image](https://github.com/user-attachments/assets/453eed3b-2536-478c-b081-78ef5db1bfc7)
+  IDA* (Iterative Deepening A): Cải tiến của A để tiết kiệm bộ nhớ bằng cách giới hạn độ sâu.
+  ![Image](https://github.com/user-attachments/assets/ce93f88c-94de-4f9b-8cbe-196935b3873a)
   Nhận xét hiệu suất:
-  - A* và IDA* cho kết quả chính xác và nhanh hơn BFS/DFS nhờ heuristic.
-  - Greedy có tốc độ nhanh nhưng dễ bị lệch hướng do chỉ tập trung vào heuristic.
+  A* và IDA* cho kết quả chính xác và nhanh hơn BFS/DFS nhờ heuristic.
+  Greedy có tốc độ nhanh nhưng dễ bị lệch hướng do chỉ tập trung vào heuristic.
   
   #2.3. Các Thuật Toán Tìm Kiếm Đặc Biệt
   Local Search:
@@ -48,11 +52,17 @@
   Q-Learning: Học chính sách tối ưu thông qua phần thưởng, phù hợp cho môi trường không xác định.
   Các phương pháp khác:
   Backtracking: Thử-sai và quay lui, phù hợp cho bài toán với ràng buộc.
+  ![Image](https://github.com/user-attachments/assets/b11b69e8-088a-43b6-bebc-b030c42e4d26)
   AO*: Tối ưu cho bài toán AND-OR với cây tìm kiếm động.
   Nhận xét:
   Local Search hiệu quả với không gian nhỏ nhưng thiếu tính ổn định.
   Q-Learning cần thời gian huấn luyện dài nhưng linh hoạt trong môi trường phức tạp.
-
+  Search with No Observation
+  ![Image](https://github.com/user-attachments/assets/0e53eb14-54d6-4319-9082-a9fd41beb62b)
+  Simulated Annealing
+  ![Image](https://github.com/user-attachments/assets/171a1257-ebc8-45ba-a61d-5b211fda76ce)
+  Partially Observable
+   
 #3. Kết Luận
 Dự án đã triển khai thành công 16 thuật toán tìm kiếm khác nhau cho bài toán 8-puzzle, bao gồm cả phương pháp cổ điển và hiện đại. Ứng dụng cung cấp giao diện trực quan, cho phép người dùng quan sát quá trình di chuyển ô số và so sánh hiệu suất thông qua các chỉ số như số nút mở rộng, thời gian thực thi. Kết quả cho thấy các thuật toán heuristic (A, IDA) vượt trội về tốc độ, trong khi Q-Learning và AO* phù hợp cho bài toán phức tạp hơn.
 
