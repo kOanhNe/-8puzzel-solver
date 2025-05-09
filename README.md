@@ -21,10 +21,11 @@
   ![Image](https://github.com/user-attachments/assets/52a4e8ac-2b50-43a5-bde5-ff1b0c488b04)
   
     DFS (Tìm kiếm theo chiều sâu): Đi sâu vào một nhánh, có thể nhanh trong một số trường hợp nhưng không đảm bảo tối ưu.
-    ![Image](https://github.com/user-attachments/assets/03d56ea4-e8e3-4692-ad82-ba469245c534)
+![Image](https://github.com/user-attachments/assets/afc327cd-e959-4055-95a6-30b8cd7db28a)
+    
     
     UCS (Tìm kiếm đồng nhất): Ưu tiên đường đi có chi phí thấp nhất, phù hợp cho bài toán có trọng số.
-    ![Image](https://github.com/user-attachments/assets/601c7d0d-ea53-4aba-abb9-8e6ba69704ac)
+![Image](https://github.com/user-attachments/assets/425335f0-5e10-4c2b-ade8-db352a59e6e7)
 
   ID (Iterative Deepening)
   
