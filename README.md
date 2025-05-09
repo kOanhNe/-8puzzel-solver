@@ -30,9 +30,12 @@
   Thành phần chính:
   Hàm heuristic: Sử dụng khoảng cách Manhattan hoặc số ô sai vị trí để ước lượng chi phí.
   Các thuật toán áp dụng:
-  - A*: Kết hợp chi phí thực tế và heuristic, đảm bảo tối ưu và hiệu quả.
-  - Greedy: Chọn hành động dựa trên heuristic, nhanh nhưng không đảm bảo tối ưu.
-  - IDA* (Iterative Deepening A): Cải tiến của A để tiết kiệm bộ nhớ bằng cách giới hạn độ sâu.
+  A*: Kết hợp chi phí thực tế và heuristic, đảm bảo tối ưu và hiệu quả.
+  ![Image](https://github.com/user-attachments/assets/b11b69e8-088a-43b6-bebc-b030c42e4d26)
+  Greedy: Chọn hành động dựa trên heuristic, nhanh nhưng không đảm bảo tối ưu.
+  ![Image](https://github.com/user-attachments/assets/ca8d8b1c-67af-44ca-b529-d0455f6bc8bf)
+  IDA* (Iterative Deepening A): Cải tiến của A để tiết kiệm bộ nhớ bằng cách giới hạn độ sâu.
+  
   Nhận xét hiệu suất:
   - A* và IDA* cho kết quả chính xác và nhanh hơn BFS/DFS nhờ heuristic.
   - Greedy có tốc độ nhanh nhưng dễ bị lệch hướng do chỉ tập trung vào heuristic.
