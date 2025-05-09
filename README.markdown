@@ -1,6 +1,4 @@
-# 8-Puzzle Solver
-
-# Bài Tập Cá Nhân - Môn Trí Tuệ Nhân Tạo (ARIN330585)
+# 8-Puzzle AI Solver - Bài Tập Cá Nhân - Môn Trí Tuệ Nhân Tạo (ARIN330585)
 
 # 1. Mục Tiêu
 
