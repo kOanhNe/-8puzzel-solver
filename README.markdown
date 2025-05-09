@@ -290,6 +290,8 @@ Chọn heuristic chất lượng (khoảng cách Manhattan) và cân nhắc gi�
 ## Tài Liệu Tham Khảo
 - *Artificial Intelligence: A Modern Approach* (Stuart Russell & Peter Norvig)
 - *Introduction to Algorithms* (Thomas H. Cormen)
-- "Solving 8-Puzzle using A* Algorithm", truy cập ngày 25/4/2025, [GeeksforGeeks](https://www.geeksforgeeks.org/8-puzzle-problem-using-branch-and-bound/)
+- "Solving 8-Puzzle using A* Algorithm", truy cập ngày 25/4/2025, link truy cập: [GeeksforGeeks](https://www.geeksforgeeks.org/8-puzzle-problem-using-branch-and-bound/)
 - "Q-Learning", *Reinforcement Learning: An Introduction* (Sutton & Barto)
-- "Local Search Algorithms", truy cập ngày 25/4/2025, [Russell & Norvig](https://www.cs.cmu.edu/~russell/book.html)
+- "Local Search Algorithms", truy cập ngày 25/4/2025,link truy cập: [Russell & Norvig](https://www.cs.cmu.edu/~russell/book.html)
+- Solving 8-Puzzle using A* Algorithm, ngày truy cập 25/4/2025, link truy cập: https://www.geeksforgeeks.org/8-puzzle-problem-using-branch-and-bound/
+- Triển khai AO*, ngày truy cập: 25/4/2025, link truy cập: https://www.researchgate.net/publication/228750393_Federalism_Governance_and_Financial_Reporting_Where_Decentralisation_is_not_Appropriate_in_Regulating_Financial_Accounting
