@@ -241,6 +241,15 @@ Dự án đã triển khai thành công 16 thuật toán tìm kiếm để giả
 - **AO*** không giải được do không phù hợp với 8-Puzzle.
 - **Partially Observable** và **Search with No Observation** có thể giải được nhưng không hiệu quả.
 - **Backtracking** có thể giải nhưng không đúng chuẩn.
+  # SO SÁNH NHÓM THUẬT TOÁN THEO TIÊU CHÍ
+| **Nhóm**             | **Tối ưu** | **Nhanh**      | **Ít bộ nhớ** | **Thông minh (AI)** |
+| -------------------- | ---------- | -------------- | ------------- | ------------------- |
+| BFS/UCS/A\*          | Có         | A\* nhanh nhất | BFS/UCS nặng  | Trung bình          |
+| Hill Climbing        | Không      | Nhanh          | Thấp          | Thấp                |
+| Simulated Annealing  | Không chắc | Vừa            | Thấp          | Trung bình          |
+| IDA\*/Iterative      | Có         | Chậm hơn       | Rất thấp      | Trung bình          |
+| AO\*, Q-Learning     | Có thể     | Trung bình     | Cao           | Cao                 |
+| Partially Observable | Không chắc | Chậm           | Vừa           | Cao                 |
 
 Chọn heuristic chất lượng (khoảng cách Manhattan) và cân nhắc giữa tốc độ và độ chính xác là yếu tố quyết định hiệu suất.
 
